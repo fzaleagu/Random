@@ -17,6 +17,7 @@
 		18E45E1A180A5611006E10AE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E45DFA180A5610006E10AE /* Cocoa.framework */; };
 		18E45E22180A5611006E10AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18E45E20180A5611006E10AE /* InfoPlist.strings */; };
 		18E45E25180A5611006E10AE /* RandomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E45E24180A5611006E10AE /* RandomTests.m */; };
+		18E45E30180A5B8A006E10AE /* RandomController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E45E2F180A5B8A006E10AE /* RandomController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		18E45E21180A5611006E10AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18E45E23180A5611006E10AE /* RandomTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomTests.h; sourceTree = "<group>"; };
 		18E45E24180A5611006E10AE /* RandomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomTests.m; sourceTree = "<group>"; };
+		18E45E2E180A5B8A006E10AE /* RandomController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomController.h; sourceTree = "<group>"; };
+		18E45E2F180A5B8A006E10AE /* RandomController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				18E45E0C180A5610006E10AE /* RandomAppDelegate.h */,
 				18E45E0D180A5610006E10AE /* RandomAppDelegate.m */,
 				18E45E0F180A5610006E10AE /* MainMenu.xib */,
+				18E45E2E180A5B8A006E10AE /* RandomController.h */,
+				18E45E2F180A5B8A006E10AE /* RandomController.m */,
 				18E45E01180A5610006E10AE /* Supporting Files */,
 			);
 			path = Random;
@@ -264,6 +269,7 @@
 			files = (
 				18E45E07180A5610006E10AE /* main.m in Sources */,
 				18E45E0E180A5610006E10AE /* RandomAppDelegate.m in Sources */,
+				18E45E30180A5B8A006E10AE /* RandomController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
